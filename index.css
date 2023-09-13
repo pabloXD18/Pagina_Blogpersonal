@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all ease 0.9s;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/*Emcabezado*/
+header {
+    background-color: rgba(3, 1, 2);
+    margin-bottom: 1pc;
+    display: flex;
+    justify-content: center;
+    padding: 1pc;
+    height: 5pc;
+    align-items: center;
+    gap: 27px;
+    font-family: 'Quicksand', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+a {
+    text-decoration: none;
+    color: #ffffff77;
+    transition: color 0.3s;
+    font-size: 20px;
+}
+a:hover {
+    color: rgb(0, 76, 255);
+    font-weight: bolder;
+}
+header div {
+    display: flex;
+    align-items: center;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+
+/*fondo*/
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/22.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+}
+
+
+/*primera section*/
+span {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+}
+.container {
+    padding: 12% 0% 5% 25%;
+    height: 100vh; 
+    align-items: center;
+}
+.container h1 {
+    margin: 4px 0px;
+    font-family: 'Lulo Clean', sans-serif;
+    font-size: 90px;
+    color: #ffffff;
+}
+.container h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    padding: 5px 0px;
+    letter-spacing: 5px;        
+}
+
+
+/*segunda section*/
+.sobremi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 3% 10%;
+}
+.containerInfo {
+    display: flex;
+    align-items: center;
+}
+.containerInfo img {
+    max-width: 50%;
+}
+.containerInfo p {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+
+/*tercera section*/
+.competencias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    text-align: center;
+}
+.competenciaInfo {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+.competenciaInfo h1 {
+    font-family: 'Lulo Clean', sans-serif;
+    font-size: 55px;
+    color: #ffffff;
+}
+.competenciaInfo h2{
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    letter-spacing: 10px;  
+    padding-top: 5px;
+}
+.competenciasInfo p {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: right;
+    margin: 14px 0;
+}
+.competenciasporcentaje {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.porcentaje1 {
+    background-color: rgba(0, 0, 255, 0.7);
+    width: 530px;
+    height: 25px;
+    margin: 19px 0;
+    border-radius: 3px;
+    padding: 2.5px 0px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+.porcentaje2 {
+    background-color: rgba(0, 0, 255, 0.7);
+    width: 400px;
+    height: 25px;
+    margin: 19px 0;
+    border-radius: 3px;
+    padding: 3.5px 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+.porcentaje3 {
+    background-color: rgba(0, 0, 255, 0.7);
+    width: 270px;
+    height: 25px;
+    margin: 19px 0;
+    border-radius: 3px;
+    padding: 3.5px 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+.porcentaje4 {
+    background-color: rgba(0, 0, 255, 0.7);
+    width: 320px;
+    height: 25px;
+    margin: 19px 0;
+    border-radius: 3px;
+    padding: 3.5px 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+.porcentaje5 {
+    background-color: rgba(0, 0, 255, 0.7);
+    width: 50px;
+    height: 25px;
+    margin: 19px 0;
+    border-radius: 3px;
+    padding: 3.5px 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+/*cuarta section*/
+.portafolio {
+    height: 200vh;
+    text-align: center;
+}
+.portafolioInfo h1 {
+    color: #ffffff;
+    font-family: 'Lulo Clean', sans-serif;
+    font-size: 55px;
+    color: #ffffff;
+    padding-top: 15%;
+}
+.collage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5% 15%;
+}
+.imagen {
+    text-align: center;
+}
+.imagen img {
+    max-width: 90%;
+    height: auto;
+    opacity: 0.4;
+    background-color: rgba(0, 0, 255, 0.7);
+}
+.imagen img:hover {
+    opacity: 1;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*quinta section*/
+.contacto {
+    display: flex;
+    height: 15vh;
+    margin: 0%;
+    padding: 0%;
+    align-items: center;
+    background-color: rgb(0, 76, 255, 0.7);
+}
+.contactoInfo {
+    justify-content: flex-end;
+    display: flex;
+    padding: 20px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    gap: 2%;
+}
+
